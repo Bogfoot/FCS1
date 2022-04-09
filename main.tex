@@ -1,3 +1,5 @@
+%! TEX program = pdftex
+
 \documentclass{article}
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc} % allow utf-8 input
@@ -47,8 +49,7 @@ Neke definicije u FČS.
 \paragraph{Translacija vektora rešetke}
 Idealna rešetka napravljena je od identičnih grupa atoma. Grupa se zove \textbf{baza}. \textbf{Rešetka} je skup točaka vezanih za bazu. 3D rešetku opisujemo s primitivnim vektorima $\mathbf{a_1}$ , $\mathbf{a_2}$ , $\mathbf{a_3}$  tako da raspored atoma u rešetci izgleda isto iz točke \textbf{r} kao i iz točke  
 \begin{equation}
-    \mathbf{r'} =  \mathbf{r} + u_1 \mathbf{a_1} + u_2 \mathbf{a_2} + u_3 \mathbf{a_3}.
-    \label{EQ1}
+    \mathbf{r'} =  \mathbf{r} + u_1 \mathbf{a_1} + u_2 \mathbf{a_2} + u_3 \mathbf{a_3}. \label{EQ1}
 \end{equation}
 Gdje su $u_i \in \mathbb{Z}$ ; i= 1, 2, 3. Skup $\mathbf{r'}$ definira točke rešetke. 
 Rešekta je \textbf{primitivna} ako bilo koje dvije točke rešetke ($\mathbf{r'}$ i $\mathbf{r}$), koje zadovoljavaju jednadžBudu 
@@ -68,7 +69,8 @@ Bazu kristala možemo identificirati kad odredimo primitivne vektore.
     \includegraphics[width=7cm]{Slika_1.PNG}
     \caption{Kristalna rešetka + Baza = Kristalna struktura}
     \label{fig:S1}
-\end{figure}Slika \ref{fig:S1} pokazuje kako se dobiva kristal tako da dodajemo bazu svakoj točki. Svaka baza nekog kristala je identična jedna drugoj s obzirom na kompoziciju, orijentaciju i raspored. 
+\end{figure}
+Slika \ref{fig:S1} pokazuje kako se dobiva kristal tako da dodajemo bazu svakoj točki. Svaka baza nekog kristala je identična jedna drugoj s obzirom na kompoziciju, orijentaciju i raspored. 
 Položaj atoma \textit{j} je određen sljedećom jednadžbom.
 \begin{equation}
     \mathbf{r}_{j}=x_{j} \mathbf{a}_{1}+y_{j} \mathbf{a}_{2}+z_{j} \mathbf{a}_{3}
@@ -307,7 +309,7 @@ n_p\left(cos(\phi) + isin(\phi)\right)+ n_{-p}\left( cos(\phi) - isin(\phi)\righ
    Gornje jednadžbe \ref{EQ2_18} govore da $\Delta \mathbf{k}$ leži na stošcu oko smjera vektora $a_i$ i da bi difrakcijski uvjet bio zadovoljen $\Delta \mathbf{k}$ mora zadovoljavati sve tri jednadžbe tj. mora ležati na presjecištu svih triju stošca. 
    
 \subsection{Brillouinova zona}
-Čita se kao Briluen. Ako je nekome to bitno. \\
+Čita se kao Briluen. Ako je nekome to bitno.\\
 \paragraph{Definicija} Brillouinova zona je Wigner-Seitzova primitivna čelija u recipročnoj rešetci.\\
 Zbog Brillouinove zone difrakcijski uvjet dobiva novu geometrijsku interpretaciju. Ako $2\mathbf{k\cdot G}=G^2$ podjelimo s 4 dobivamo:
 \begin{equation}
